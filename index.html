@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link Tailwin , Font And Css Start -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style/style.css">
 
@@ -13,7 +15,130 @@
     <!-- Link Tailwin And Css End -->
     <title>Smart Ticketing</title>
 </head>
-<body class="raleway-font">
+<body class="raleway-font " >
+
+    <!-- Header Start -->
+
+    <section id="Header" class="min-h-screen lg:px-[134px] px-[20px]  lg:py-[48px] py-[10px]">
+
+
+         <!-- NavBar start -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class=" lg:text-4xl text-2xl text-[#030712]  font-extrabold"> P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+            <button class="btn btn-outline btn-success bg-[#1DD1001A] text-xl font-bold">Bus <img src="./images/bus-icon.png" alt=""></button>
+        </div>
+      </div>
+    <!-- NavBar End -->
+
+
+
+
+
+
+
+
+
+     <section class="lg:relative lg:pb-[120px] pb-7">
+         <!-- Banner Section Start -->
+   
+         <div class=" w-full  lg:h-[570px] h-[300px] bg-[url('./images/banner.png')] bg-cover bg-center  bg-no-repeat  mt-7 lg:rounded-[32px] rounded-[20px] flex flex-col justify-center items-center" >
+
+            <div id="banner-contain" class="flex flex-col justify-center lg:items-center p-[32px]">
+                <h1 class="lg:text-6xl text-2xl text-white font-bold lg:text-center text-left">
+                    End-to-End Travel with <br>
+                    <span class="text-[#1DD100]">P Paribahan</span>
+                </h1>
+
+                <p class="lg:text-lg text-sm  text-white lg:text-center text-left lg:pt-4 lg:pb-8">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+
+                <button class=" btn  lg:text-center text-left bg-[#1DD100] lg:text-xl font-bold border-none text-[#030712] ">Buy Tickets</button>
+            </div>
+    
+           </div>
+
+
+           <!-- ----- -->
+
+           <div class="flex lg:flex-row flex-col justify-center items-center gap-6 lg:absolute  lg:top-0 lg:right-0 lg:left-0  lg:mt-[500px] mt-10 ">
+
+            <div class=" lg:h-32 h-40 w-[308px]   bg-white rounded-3xl border-b-[#1DD100] border-b-4 flex justify-center items-center lg:p-5 p-4 gap-4">
+                 <div> <img src="./images/people.png" alt=""></div>
+                 <div>
+                    <h1 class="text-4xl font-bold text-black">500K+</h1>
+                    <p class="text-lg text-[#03071299] ">Registered users</p>
+                 </div>
+            </div>
+
+            <div class=" lg:h-32 h-40 w-[308px]  bg-white rounded-3xl border-b-[#1DD100] border-b-4 flex justify-center items-center lg:p-5 p-4 gap-4">
+                <div> <img src="./images/ticket-cupon.png" alt=""></div>
+                <div>
+                   <h1 class="text-4xl font-bold text-black">1.7 lacks</h1>
+                   <p class="text-lg text-[#03071299] ">Tickets sold</p>
+                </div>
+           </div>
+
+
+           <div class=" lg:h-32 h-40 w-[308px] bg-white rounded-3xl border-b-[#1DD100] border-b-4 flex justify-center items-center lg:p-5 p-4 gap-4">
+            <div> <img src="./images/stoppage.png" alt=""></div>
+            <div>
+               <h1 class="text-4xl font-bold text-black">80K+</h1>
+               <p class="text-lg text-[#03071299] ">Rental partners</p>
+            </div>
+       </div>
+            
+
+           </div>
+           <!-- ------------- -->
+       
+      <!-- Banner Section end -->
+
+     </section>
+
+
+
+
+    </section>
+
+   
+
+
+
+    <!-- Header End -->
     
 
     <!-- Script Link Start -->
