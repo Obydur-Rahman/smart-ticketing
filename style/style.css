@@ -1,10 +1,62 @@
 .raleway-font{
         font-family: "Raleway", sans-serif;
       }
+      *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        
+      }
+
+     
 
 
 li a{
     color: #030712B3;
     font-size: 1.125rem;
     font-weight: 500;
+}
+
+
+
+/* best offer Section */
+
+.offer-heading{
+  font-weight: 900;
+  font-size: 40px;
+  color: #030712CC;
+}
+
+.offer-sub-heading{
+  font-weight: 600;
+  font-size: 20px;
+  color: #030712CC;
+  
+}
+
+.offer-para{
+  font-weight: 500;
+  font-size: 18px;
+  color: #03071280;
+}
+
+.coupon-code{
+  font-weight: 700;
+  font-size: 32px;
+  color: #030712;
+}
+
+.coupon-para{
+  font-weight: 500;
+  font-size: 20px;
+  color: #03071266;
+}
+
+
+/* paribahan-section */
+
+.paribahan-section{
+  background-color: #F7F8F8;
+  border-top: 2px solid rgb(29, 209, 0);
+  border-radius: 88px 88px 0px 0px;
 }
